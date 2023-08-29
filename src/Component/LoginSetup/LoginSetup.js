@@ -55,8 +55,8 @@ const LoginSetup = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' absolute gap-8  text-white top-2/3 left-[45%] -translate-x-1/2 -translate-y-1/2 flex flex-col pt-10'>
-                    <div className=' flex flex-row gap-3 pt-9 '>
+                <div className=' absolute gap-8  text-white top-2/3 left-[45%] -translate-x-1/2 -translate-y-1/2 flex flex-col pt-2'>
+                    <div className=' flex flex-row gap-3 pt-5 '>
                         <button className='bg-yellow-400 rounded-full text-black w-16 h-10'>Login</button>
                         <button className='hover:bg-yellow-400 bg-gray-500 text-gray-400 text-center hover:text-black rounded-full w-32 h-10'>CreateAccount</button>
                     </div>

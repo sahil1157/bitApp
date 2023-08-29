@@ -17,7 +17,7 @@ const MyStaking = () => {
 
     </div> */}
 
-      <div className=' bg-sky-950 h-screen flex flex-col'>
+      <div className=' bg-sky-950 h-[100%] lg:h-screen flex flex-col'>
 
         <div className='  text-white flex flex-row lg:flex-row py-14 space-x-2 px-8'>
           <TfiLayoutGrid4 size={30} />
@@ -57,18 +57,18 @@ const MyStaking = () => {
           </div>
           <div className='flex flex-row gap-8 pb-1'>
             <button className='box-border w-20 rounded-full bg-yellow-400 text-black'>
-              <h3 className='font-bold text-sm text-center py-2'>Pending</h3>
+              <h3 className='font-bold text-sm text-center py-2'>Running</h3>
             </button>
             <button className='box-border w-20 rounded-full hover:bg-yellow-400 hover:text-black bg-slate-800 text-slate-400'>
               <h3 className='font-bold text-sm text-center py-2'>Pending</h3>
             </button>
             <button className='box-border w-20 rounded-full bg-slate-800 text-slate-400 hover:bg-yellow-400 hover:text-black'>
-              <h3 className='font-bold text-sm text-center py-2'>Pending</h3>
+              <h3 className='font-bold text-sm text-center py-2'>Reject</h3>
             </button>
           </div>
-          <div className='py-2'>
-            <div className='py-3  justify-center box-content w-full h-14 bg-white'>
-              <div className='flex flex-row justify-center py-2 gap-2'>
+          <div className='py-4'>
+            <div className=' py-2 justify-center box-content w-full  bg-white'>
+              <div className='flex flex-row justify-center py-1 gap-2'>
                 <PiSmileySadDuotone className='rounded-full text-slate-500' size={30} />
                 <h2 className='font-medium text-slate-600 text-2xl'>NOT FOUND</h2>
               </div>

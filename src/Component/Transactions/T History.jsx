@@ -70,7 +70,7 @@ const  THistory = () => {
         <span className=' b-l w-5 h-5'><AiFillCaretDown onClick={showRemark}/></span>
 
 
-        <div className={` absolute ${ remark ? 'block top-full'  : 'hidden ease-in-out duration-500'} top-full w-max bg-white shadow-md mt-1 rounded`}>
+        <div className={` absolute ${ remark ? 'block overflow-auto'  : 'hidden ease-in-out duration-500'} top-full w-max bg-white shadow-md mt-1 rounded`}>
           <ul className='text-left border rounded '>
             <li className='px-4 py-1 hover:text-white  hover:bg-gray-500 border-b'> Affiliaye reward</li>
             <li className='px-4 py-1 hover:text-white hover:bg-gray-500 border-b'> Balance add</li>
@@ -81,9 +81,16 @@ const  THistory = () => {
             <li className='px-4 py-1 hover:text-white hover:bg-gray-500 border-b'> Level not fulfilled</li>
             <li className='px-4 py-1 hover:text-white hover:bg-gray-500 border-b'> Withdraw</li>
             <li className='px-4 py-1 hover:text-white hover:bg-gray-500 border-b'> Withdraw Reject</li>
-            {/* <li className='px-4 py-1 hover:bg-gray-100 '> Deposit</li> */}
+            <li className='px-4 py-1 hover:bg-gray-100 '> Deposit</li>
           </ul>
         </div>
+
+
+{/*  */}
+
+{/*  */}
+
+
 
         </div>
         

@@ -105,7 +105,7 @@ const HeaderFile = () => {
 
         <div className=''>
 
-          <ul className='pt-11 p-4 text-white cursor-pointer grid grid-cols-1 ' >
+          <ul className='pt-11 p-4 text-white transition-all duration-100 delay-100 grid grid-cols-1 ' >
             <NavLink to='/intro' className='p-3'>DashBoard</NavLink>
             <NavLink to='/profile' className='p-3' >Profile</NavLink >
             <NavLink to='/staking' className='p-3'>Staking</NavLink  >
