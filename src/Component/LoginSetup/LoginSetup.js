@@ -70,11 +70,11 @@ const LoginSetup = () => {
                             <br />
 
                             <form onSubmit={handleClicked} className=''>
-                                <h1 className='text-center'>Username or Email</h1>
+                                <h1 className=''>Username or Email</h1>
                                 <input onChange={handleClick} name='username' placeholder='Enter your userID' className=' md:w-[100%] p-3 text-black w-[100%] lg:w-[130%] h-12 rounded-md' type="text" />
 
                                 <div className='pt-4'>
-                                    <h1 className='text-center'>Forgot</h1>
+                                    <h1 className=''>Forgot</h1>
 
                                     <input onChange={handleClick} className='p-3 text-black w-[100%] lg:w-[130%] h-12 rounded-md' type="text" name='password' placeholder='username' />
                                 </div>
